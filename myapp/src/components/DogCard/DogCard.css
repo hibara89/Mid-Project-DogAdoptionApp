@@ -1,0 +1,40 @@
+.dog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+img {
+  width: 20vw;
+  height: 30vh;
+  margin: 10px;
+}
+
+.delete {
+  width: 20%;
+  height: 5vh;
+  margin: 10px;
+  text-align: center;
+  font-size: 12px;
+  background-color: teal;
+  color: white;
+  border-radius: 10px;
+}
+
+.info {
+  width: 30%;
+  height: 5vh;
+
+  text-align: center;
+  font-size: 12px;
+  background-color: orange;
+  color: white;
+  border-radius: 10px;
+}
